@@ -23,7 +23,7 @@ target_include_directories(${PROJECT_NAME} INTERFACE "${PROJECT_SOURCE_DIR}/incl
 
 if(BUILD_TESTS)
   hunter_add_package(Catch)
-  hunter_add_package(vector)
+  hunter_add_package(quick)
   find_package(Catch CONFIG REQUIRED)
   
   enable_testing()
